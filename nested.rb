@@ -116,7 +116,7 @@ binding.pry
 	allan = programmer_hash[:alan_kay]
   # known_for = allan[:knownfor]
 	allan[:knownfor] = "GUI"
-	//known_for = "GUI"
+	# known_for = "GUI"
   binding.pry
 	# programmer_hash["alan_kay"][:known_for] = "GUI"
   return programmer_hash
