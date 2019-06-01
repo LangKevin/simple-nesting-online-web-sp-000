@@ -113,13 +113,14 @@ def changing_alan
 # jon_snow: jon_snow = contacts["Jon Snow"]
 # jons_fav_ice_cream = jon_snow[:favorite_ice_cream_flavors]
 # binding.pry
-	allan = programmer_hash[:alan_kay]
+# allan = programmer_hash[:alan_kay]
   # known_for = allan[:knownfor]
-	allan[:knownfor] = "GUI"
+	# allan[:knownfor] = "GUI"
 	# known_for = "GUI"
   # binding.pry
 	# programmer_hash["alan_kay"][:known_for] = "GUI"
-  return programmer_hash
+	programmer_hash[:alan_kay][:known_for] = alans_new_info
+		programmer_hash
 end
 
 def adding_to_dennis
