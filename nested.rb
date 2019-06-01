@@ -111,7 +111,7 @@ def changing_alan
 # programmer_hash[:dennis_ritchie][:languages] = "C"
 # jon_snow: jon_snow = contacts["Jon Snow"]
 # jons_fav_ice_cream = jon_snow[:favorite_ice_cream_flavors]
-  allan = programmer_hash["alan_kay"]
+  allan = programmer_hash[:alan_kay]
   known_for = allan[:knownfor]
 	known_for = "GUI"
 	# programmer_hash["alan_kay"][:known_for] = "GUI"
