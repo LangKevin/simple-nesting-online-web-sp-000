@@ -109,7 +109,12 @@ def changing_alan
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
      alans_new_info = "GUI"
 # programmer_hash[:dennis_ritchie][:languages] = "C"
-	programmer_hash["alan_kay"][:known_for] = "GUI"
+# jon_snow: jon_snow = contacts["Jon Snow"]
+# jons_fav_ice_cream = jon_snow[:favorite_ice_cream_flavors]
+  alan_kay: allan = programmer_hash["alan_kay"]
+  known_for = allan[:knownfor]
+	known_for = "GUI"
+	# programmer_hash["alan_kay"][:known_for] = "GUI"
   return programmer_hash
 end
 
