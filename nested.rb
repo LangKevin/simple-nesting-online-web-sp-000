@@ -108,18 +108,8 @@ def changing_alan
         }
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
-     alans_new_info = "GUI"
-# programmer_hash[:dennis_ritchie][:languages] = "C"
-# jon_snow: jon_snow = contacts["Jon Snow"]
-# jons_fav_ice_cream = jon_snow[:favorite_ice_cream_flavors]
-# binding.pry
-# allan = programmer_hash[:alan_kay]
-  # known_for = allan[:knownfor]
-	# allan[:knownfor] = "GUI"
-	# known_for = "GUI"
-  # binding.pry
-	# programmer_hash["alan_kay"][:known_for] = "GUI"
-	programmer_hash[:alan_kay][:known_for] = alans_new_info
+    alans_new_info = "GUI"
+	  programmer_hash[:alan_kay][:known_for] = alans_new_info
 		programmer_hash
 end
 
@@ -139,5 +129,6 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-  programmer_hash[:alan_kay][:languages] = "Assembly"
+     programmer_hash[:alan_kay][:languages] = "Assembly"
+		 programmer_hash
 end
