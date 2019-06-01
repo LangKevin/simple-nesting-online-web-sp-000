@@ -113,7 +113,7 @@ def changing_alan
 # jons_fav_ice_cream = jon_snow[:favorite_ice_cream_flavors]
   allan = programmer_hash["alan_kay"]
   known_for = allan[:knownfor]
-	# known_for = "GUI"
+	known_for = "GUI"
 	# programmer_hash["alan_kay"][:known_for] = "GUI"
   return programmer_hash
 end
