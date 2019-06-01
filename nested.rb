@@ -86,7 +86,21 @@ def adding_matz
   programmer_hash.merge(:yukihiro_matsumoto => {:known_for => "Ruby", :languages => ["LISP", "C"]})
   return programmer_hash
 end
-
+# def test
+#   contacts = {
+#     "Jon Snow" => {
+#       name: "Jon",
+#       email: "jon_snow@thewall.we",
+#       favorite_ice_cream_flavors: ["chocolate", "vanilla"]  },
+#     "Freddy Mercury" => {
+#       name: "Freddy",
+#       email: "freddy@mercury.com",
+#       favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
+# 	  }
+#   }
+# 	contacts["Jon Snow"][:favorite_ice_cream_flavors] << "mint chip"
+# 	puts contacts
+# end
 def changing_alan
 	programmer_hash =
  		{
@@ -129,18 +143,3 @@ def adding_to_dennis
 		 programmer_hash[:dennis_ritchie][:languages] = ["C", "Assembly"]
 		 programmer_hash
 end
-# def test
-#   contacts = {
-#     "Jon Snow" => {
-#       name: "Jon",
-#       email: "jon_snow@thewall.we",
-#       favorite_ice_cream_flavors: ["chocolate", "vanilla"]  },
-#     "Freddy Mercury" => {
-#       name: "Freddy",
-#       email: "freddy@mercury.com",
-#       favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
-# 	  }
-#   }
-# 	contacts["Jon Snow"][:favorite_ice_cream_flavors] << "mint chip"
-# 	puts contacts
-# end
